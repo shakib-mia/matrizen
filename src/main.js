@@ -240,3 +240,11 @@ document.querySelectorAll("#menu a").forEach((anchor) => {
     }
   });
 });
+
+document
+  .getElementById("download-button")
+  .addEventListener("click", () =>
+    window.open(
+      "https://www.stgeorges.nhs.uk/wp-content/uploads/2013/11/Pregnancy_Book_comp.pdf",
+    ),
+  );
