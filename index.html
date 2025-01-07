@@ -1,0 +1,1521 @@
+<!doctype html>
+<html lang="en" class="bg-grey">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matrizen - Compassionate Maternity Care</title>
+    <meta
+      name="description"
+      content="At matrizen we understand that every pregnancy is unique. Our compassionate and expert team is dedicated to providing personalized care for expecting mothers, ensuring both your health and your baby’s well-being."
+    />
+    <meta
+      name="title"
+      content="Compassionate Maternity Care, Every Step of the Way"
+    />
+    <link rel="stylesheet" href="./src/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/b50fc748ca.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navbar Container -->
+    <div class="w-screen overflow-x-hidden">
+      <div class="fixed z-[9999] w-screen pt-0 transition lg:pt-7" id="navbar">
+        <!-- Navigation Bar -->
+        <nav
+          class="relative flex h-full w-full justify-center"
+          data-aos="fade-down"
+          id="menu"
+        >
+          <div
+            class="container fixed left-0 right-0 flex items-center justify-between rounded bg-white px-4 py-3 transition-all duration-500 ease-in lg:rounded-2xl lg:px-7 lg:py-5"
+            id="nav-content"
+          >
+            <!-- Logo Section -->
+            <a href="#">
+              <img src="/logo.jpg" class="w-8/12 lg:h-14 lg:w-auto" alt="" />
+            </a>
+
+            <!-- Hamburger Icon (Visible on Mobile) -->
+            <div class="flex items-center lg:hidden">
+              <span id="menu-toggle" class="text-4xl focus:outline-none">
+                <i class="fas fa-bars"></i>
+              </span>
+            </div>
+
+            <!-- Navbar Links -->
+            <ul
+              class="absolute left-0 top-[99%] max-h-0 w-full divide-y divide-gray-200 overflow-hidden bg-white text-base font-medium shadow-lg transition-all duration-500 ease-linear lg:static lg:mt-0 lg:flex lg:max-h-full lg:w-auto lg:gap-6 lg:divide-y-0 lg:bg-transparent lg:py-0 lg:shadow-none"
+            >
+              <!-- Individual Navbar Link -->
+              <li>
+                <a
+                  href="#header"
+                  class="container mx-auto block px-4 py-4 transition hover:bg-primary hover:text-white lg:p-0 lg:contain-none lg:hover:bg-transparent lg:hover:text-primary"
+                  >Home</a
+                >
+              </li>
+              <!-- Individual Navbar Link -->
+              <li>
+                <a
+                  href="#about"
+                  class="container mx-auto block px-4 py-4 transition hover:bg-primary hover:text-white lg:p-0 lg:contain-none lg:hover:bg-transparent lg:hover:text-primary"
+                  >About</a
+                >
+              </li>
+              <!-- Individual Navbar Link -->
+              <li>
+                <a
+                  href="#services"
+                  class="container mx-auto block px-4 py-4 transition hover:bg-primary hover:text-white lg:p-0 lg:contain-none lg:hover:bg-transparent lg:hover:text-primary"
+                  >Services</a
+                >
+              </li>
+              <!-- Individual Navbar Link -->
+              <li>
+                <a
+                  href="#pregnancy-guide"
+                  class="container mx-auto block px-4 py-4 transition hover:bg-primary hover:text-white lg:p-0 lg:contain-none lg:hover:bg-transparent lg:hover:text-primary"
+                  >About Pregnancy Guide</a
+                >
+              </li>
+              <!-- Individual Navbar Link -->
+              <li>
+                <a
+                  href="#testimonial"
+                  class="container mx-auto block px-4 py-4 transition hover:bg-primary hover:text-white lg:p-0 lg:contain-none lg:hover:bg-transparent lg:hover:text-primary"
+                  >Testimonials</a
+                >
+              </li>
+              <!-- Individual Navbar Link -->
+              <li>
+                <a
+                  href="#blogs"
+                  class="container mx-auto block px-4 py-4 transition hover:bg-primary hover:text-white lg:p-0 lg:contain-none lg:hover:bg-transparent lg:hover:text-primary"
+                  >Blog</a
+                >
+              </li>
+            </ul>
+
+            <!-- Register Button (Visible on larger screens) -->
+            <a href="#contact">
+              <button class="solid hidden font-medium lg:inline-block">
+                Start Consultation
+              </button>
+            </a>
+          </div>
+        </nav>
+      </div>
+
+      <header
+        class="container flex flex-col justify-between pb-8 pt-28 lg:flex-row lg:pb-16 lg:pt-52"
+        id="header"
+      >
+        <!-- Header Section -->
+        <!-- The container is padded vertically with py-28 for small screens and py-52 for large screens -->
+        <!-- The content is divided into two sections (flex layout) for small (stacked) and large (row) screens -->
+
+        <aside class="w-full lg:w-2/3">
+          <!-- Main Content Section (Takes full width on small screens, 2/3 width on large screens) -->
+          <h1 class="font-bold" data-aos="fade-right" data-aos-duration="1000">
+            Compassionate <span class="text-primary">Maternity Care</span>,
+            Every Step of the Way
+            <!-- Main heading with a highlighted primary color for the phrase "Maternity Care" -->
+          </h1>
+          <p
+            class="mt-4"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+          >
+            At matrizen we understand that every pregnancy is unique. Our
+            compassionate and expert team is dedicated to providing personalized
+            care for expecting mothers, ensuring both your health and your
+            baby’s well-being.
+            <!-- Supporting paragraph with a top margin (mt-4) for spacing below the heading -->
+          </p>
+
+          <div
+            class="mt-4 lg:hidden"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            <button class="solid font-medium">Start Consultation</button>
+          </div>
+        </aside>
+
+        <aside
+          class="flex w-0 items-center justify-center lg:w-1/3"
+          data-aos="fade-in"
+          data-aos-delay="500"
+        >
+          <!-- Decorative Section (Hidden on small screens, takes 1/3 width on large screens) -->
+          <div
+            style="background-image: url(./src/assets/curve-text.svg)"
+            class="flex aspect-square w-40 animate-rotate items-center justify-center bg-contain bg-center bg-no-repeat"
+          >
+            <!-- Rotating decorative circle with a background image -->
+            <img
+              src="./src/assets/pregnant 1.png"
+              class="animate-reverse-rotate"
+              alt="pregnant"
+            />
+          </div>
+        </aside>
+      </header>
+
+      <!-- Video Section -->
+      <div class="container">
+        <div
+          class="relative overflow-hidden rounded-lg lg:rounded-2xl"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+        >
+          <!-- Thumbnail -->
+          <img
+            src="./src/assets/236ca44c38fb5f11eb9d837822ee429f.jpeg"
+            class="aspect-video w-full object-cover lg:aspect-[16/7]"
+            alt=""
+          />
+          <!-- Play Icon -->
+          <div
+            class="absolute left-0 top-0 flex h-full w-full items-center justify-center bg-primary bg-opacity-40"
+          >
+            <i
+              id="playIcon"
+              class="far fa-play-circle cursor-pointer text-8xl font-light text-white lg:text-8xl"
+            ></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Video Modal -->
+      <div
+        id="videoModal"
+        class="fixed inset-0 z-[99999999] hidden items-center justify-center bg-black bg-opacity-70"
+      >
+        <div class="relative max-w-4xl lg:w-full">
+          <!-- Close Button -->
+          <button
+            id="closeModal"
+            class="absolute -top-16 right-0 inline-block aspect-square w-12 rounded-full border border-primary p-0 text-5xl text-primary transition hover:bg-primary hover:text-white lg:-right-16 lg:-top-16"
+          >
+            &times;
+          </button>
+          <!-- Video Element -->
+          <div class="aspect-video bg-black">
+            <iframe
+              id="videoFrame"
+              class="h-full w-full"
+              src=""
+              frameborder="0"
+              allow="autoplay; fullscreen"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+
+      <!-- About Us Section -->
+      <section
+        class="container flex flex-col gap-4 md:gap-8 lg:flex-row lg:gap-12"
+        id="about"
+      >
+        <!-- Left Section: Stats and Images -->
+        <aside class="grid grid-cols-2 gap-2 lg:w-5/12 lg:gap-5">
+          <aside>
+            <!-- Years of Experience Stat -->
+            <div
+              class="mb-2 flex items-center gap-2 rounded-lg bg-primary p-4 text-white lg:mb-5 lg:gap-8 lg:rounded-2xl lg:px-11 lg:py-9"
+              data-aos-anchor="#about-us"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="100"
+            >
+              <h2 class="font-montserrat font-semibold">17</h2>
+              <p class="text-base lg:text-lg">Years Of experience</p>
+            </div>
+
+            <!-- Trusted Partner Image 1 -->
+            <img
+              src="./src/assets/trusted-partner/Rectangle 2739.png"
+              alt="trusted-partner-1"
+              data-aos-anchor="#about-us"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+            />
+          </aside>
+
+          <aside class="flex flex-col items-center justify-between">
+            <!-- Trusted Partner Image 2 -->
+            <img
+              src="./src/assets/trusted-partner/Group 1261152836.png"
+              alt="trusted-partner-2"
+              data-aos-anchor="#about-us"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            />
+            <!-- Rotating Decorative Circle -->
+            <div
+              style="background-image: url(./src/assets/curve-text.svg)"
+              class="mt-2 flex aspect-square h-full animate-rotate items-center justify-center bg-contain bg-center bg-no-repeat lg:mt-5 lg:h-40 lg:w-40"
+              data-aos-anchor="#about-us"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
+              <img
+                src="./src/assets/pregnant 1.png"
+                class="animate-reverse-rotate"
+                alt="pregnant"
+              />
+            </div>
+          </aside>
+        </aside>
+
+        <!-- Right Section: Heading, Description, and CTA -->
+        <aside class="lg:w-7/12">
+          <div class="lg:w-10/12">
+            <!-- Heading -->
+            <h2
+              class="font-bold"
+              data-aos-anchor="#about-us"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
+              Your Trusted Partner in
+              <span class="text-primary">Maternity Care</span>
+            </h2>
+            <!-- Description -->
+            <p
+              class="my-4 lg:mb-8 lg:mt-5"
+              data-aos-anchor="#about-us"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="100"
+            >
+              At Matrizen, we believe that every pregnancy is a unique and
+              beautiful journey. With over 25 years of experience in providing
+              comprehensive maternity care, we are dedicated to supporting
+              expecting mothers through every stage of pregnancy, childbirth,
+              and postnatal care.
+            </p>
+
+            <!-- Benefits List -->
+            <ul class="mb-4 flex flex-col gap-4 lg:mb-8">
+              <li
+                data-aos-anchor="#about-us"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Incidunt temporibus fugit nisi vero iste autem illo similique
+                eligendi omnis quos!
+              </li>
+              <li
+                data-aos-anchor="#about-us"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+                data-aos-delay="300"
+              >
+                Dolore consequuntur odio voluptates veniam? Ab tempora porro
+                omnis minus soluta. Quis aperiam necessitatibus accusantium, hic
+                et quidem accusamus placeat.
+              </li>
+            </ul>
+
+            <!-- Call to Action Button -->
+            <div
+              data-aos-anchor="#about-us"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            >
+              <button class="bordered flex items-center gap-4">
+                Read More <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <!-- Specialized Care Section -->
+      <section class="container" id="services">
+        <div class="mx-auto lg:text-center">
+          <!-- Section Heading -->
+          <h2
+            class="mx-auto w-full font-bold lg:w-1/2"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            <span class="text-primary">Specialized Care</span> for Every Step of
+            Your Journey
+          </h2>
+          <!-- Section Details -->
+          <p
+            class="mx-auto mb-6 mt-4 w-full lg:mb-10 lg:w-2/3"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            At Matrizen, we believe that every pregnancy is a unique and
+            beautiful journey. With over 17 years of experience in providing
+            comprehensive maternity care,
+          </p>
+        </div>
+
+        <!-- Services -->
+        <div
+          class="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-x-7 lg:gap-y-11"
+        >
+          <!-- Specialized Care -->
+          <a
+            href="#"
+            class="group inline-flex flex-col gap-4 rounded-2xl border border-[#E3DBD8] bg-white p-2 lg:flex-row lg:items-center"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            <!-- Specialized Care Image -->
+            <img
+              src="./src/assets/specialized-care/labour-and-delivery.jpg"
+              class="aspect-video h-full w-full overflow-hidden rounded-2xl object-cover object-center lg:aspect-auto lg:w-5/12"
+              alt="labour-and-delivery"
+            />
+
+            <aside>
+              <!-- Specialized Care Heading -->
+              <h4 class="font-bold">Labor & Delivery</h4>
+              <!-- Specialized Care Text -->
+              <p class="my-2 lg:my-4">
+                Safe and comfortable birthing experience.
+              </p>
+              <button
+                class="bordered rounded-xl px-5 py-3 group-hover:bg-primary group-hover:text-white"
+              >
+                <i class="fas fa-long-arrow-alt-right --rotate-90"></i>
+              </button>
+            </aside>
+          </a>
+
+          <!-- Specialized Care -->
+          <a
+            href="#"
+            class="group inline-flex flex-col gap-4 rounded-2xl border border-[#E3DBD8] bg-white p-2 lg:flex-row lg:items-center"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
+            <!-- Specialized Care Image -->
+            <img
+              src="./src/assets/specialized-care/prenatal-care.jpg"
+              class="aspect-video h-full w-full overflow-hidden rounded-2xl object-cover object-center lg:aspect-auto lg:w-5/12"
+              alt="prenatal-care"
+            />
+
+            <aside>
+              <!-- Specialized Care Heading -->
+              <h4 class="font-bold">Prenatal Care</h4>
+              <!-- Specialized Care Text -->
+              <p class="my-2 lg:my-4">
+                Regular check-ups, screenings, and ultrasounds.
+              </p>
+              <button
+                class="bordered rounded-xl px-5 py-3 group-hover:bg-primary group-hover:text-white"
+              >
+                <i class="fas fa-long-arrow-alt-right --rotate-90"></i>
+              </button>
+            </aside>
+          </a>
+
+          <!-- Specialized Care -->
+          <a
+            href="#"
+            class="group inline-flex flex-col gap-4 rounded-2xl border border-[#E3DBD8] bg-white p-2 lg:flex-row lg:items-center"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            <!-- Specialized Care Image -->
+            <img
+              src="./src/assets/specialized-care/breastfeeding-support.jpg"
+              class="aspect-video h-full w-full overflow-hidden rounded-2xl object-cover object-center lg:aspect-auto lg:w-5/12"
+              alt="breastfeeding-support"
+            />
+
+            <aside>
+              <!-- Specialized Care Heading -->
+              <h4 class="font-bold">Breastfeeding Support</h4>
+              <!-- Specialized Care Text -->
+              <p class="my-2 lg:my-4">Guidance from lactation consultants.</p>
+              <button
+                class="bordered rounded-xl px-5 py-3 group-hover:bg-primary group-hover:text-white"
+              >
+                <i class="fas fa-long-arrow-alt-right --rotate-90"></i>
+              </button>
+            </aside>
+          </a>
+
+          <!-- Specialized Care -->
+          <a
+            href="#"
+            class="group inline-flex flex-col gap-4 rounded-2xl border border-[#E3DBD8] bg-white p-2 lg:flex-row lg:items-center"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
+            <!-- Specialized Care Image -->
+            <img
+              src="./src/assets/specialized-care/newborn-care-guidance.jpg"
+              class="aspect-video h-full w-full overflow-hidden rounded-2xl object-cover object-center lg:aspect-auto lg:w-5/12"
+              alt="newborn-care-guidance"
+            />
+
+            <aside>
+              <!-- Specialized Care Heading -->
+              <h4 class="font-bold">Newborn Care Guidance</h4>
+              <!-- Specialized Care Text -->
+              <p class="my-2 lg:my-4">
+                health check-ups to support new parents in the early days.
+              </p>
+              <button
+                class="bordered rounded-xl px-5 py-3 group-hover:bg-primary group-hover:text-white"
+              >
+                <i class="fas fa-long-arrow-alt-right --rotate-90"></i>
+              </button>
+            </aside>
+          </a>
+        </div>
+
+        <!-- CTA -->
+        <div
+          class="mt-9 flex justify-center"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <button class="solid">See All Services</button>
+        </div>
+      </section>
+
+      <!-- Pregnancy Journey Section -->
+      <section id="pregnancy-guide">
+        <!-- Section Header -->
+        <h2
+          class="mx-auto w-full text-center font-bold lg:w-1/3"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          Your <span class="text-primary">Pregnancy Journey</span>, A Complete
+          Guide
+        </h2>
+
+        <!-- Timeline Container -->
+        <div class="container relative mt-7 lg:mt-14">
+          <!-- First Trimester -->
+          <div
+            class="group relative grid grid-cols-1 lg:grid-cols-2 lg:gap-28"
+            item
+          >
+            <!-- Content Side -->
+            <aside
+              class="order-2 w-full bg-white p-4 lg:order-1 lg:p-8"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
+              <h4 class="font-bold">First Trimester (0-12 Weeks)</h4>
+              <p class="mt-2 lg:mt-4">
+                What to Expect: Hormonal changes, morning sickness, fatigue.
+                Important Milestones: First prenatal visit, early ultrasound.
+              </p>
+            </aside>
+
+            <!-- Timeline Connector -->
+            <div
+              class="absolute bottom-0 left-0 right-0 mx-auto hidden h-5/6 w-px items-center bg-primary lg:flex"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
+              <!-- Timeline Dot -->
+              <div class="relative -left-3" data-aos="zoom-in">
+                <div
+                  class="flex aspect-square w-6 items-center justify-center rounded-full bg-primary"
+                >
+                  <div
+                    class="aspect-square w-0 rounded-full bg-white transition-[width] group-hover:w-4"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Image Side -->
+            <aside
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              class="order-1 lg:order-2"
+            >
+              <img
+                src="./src/assets/pregnancy-journey/Rectangle 9509.jpg"
+                alt="pregnancy-journey"
+                class="w-full lg:w-fit"
+              />
+            </aside>
+          </div>
+
+          <!-- Second Trimester -->
+          <div
+            class="item group relative grid grid-cols-1 py-6 lg:grid-cols-2 lg:gap-28"
+          >
+            <!-- Image Side -->
+            <aside
+              class="flex justify-end"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
+              <img
+                src="./src/assets/pregnancy-journey/Rectangle 9511.jpg"
+                alt="pregnancy-journey"
+                class="w-full lg:w-fit"
+              />
+            </aside>
+
+            <!-- Timeline Connector -->
+            <div
+              class="absolute left-0 right-0 top-0 mx-auto hidden h-full w-px items-center bg-primary lg:flex"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
+              <!-- Timeline Dot -->
+              <div class="relative -left-3" data-aos="zoom-in">
+                <div
+                  class="flex aspect-square w-6 items-center justify-center rounded-full bg-primary"
+                >
+                  <div
+                    class="aspect-square w-0 rounded-full bg-white transition-[width] group-hover:w-4"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Content Side -->
+            <aside
+              class="w-full bg-white p-4 lg:p-8"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
+              <h4 class="font-bold">Second Trimester (13-27 Weeks)</h4>
+              <p class="mt-2 lg:mt-4">
+                What to Expect: Increased energy, baby movement, belly growth.
+                Important Milestones: Anatomy scan, glucose screening.
+              </p>
+            </aside>
+          </div>
+
+          <!-- Third Trimester -->
+          <div
+            class="item group relative grid grid-cols-1 py-6 lg:grid-cols-2 lg:gap-28"
+          >
+            <!-- Content Side -->
+            <aside
+              class="order-2 w-full bg-white p-4 lg:order-1 lg:p-8"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
+              <h4 class="font-bold">Third Trimester (28-40 Weeks)</h4>
+              <p class="mt-2 lg:mt-4">
+                What to Expect: Frequent doctor visits, preparation for labor.
+                Important Milestones: Birth plan finalization.
+              </p>
+            </aside>
+
+            <!-- Timeline Connector -->
+            <div
+              class="absolute left-0 right-0 top-0 mx-auto hidden h-full w-px items-center bg-primary lg:flex"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
+              <!-- Timeline Dot -->
+              <div class="relative -left-3" data-aos="zoom-in">
+                <div
+                  class="flex aspect-square w-6 items-center justify-center rounded-full bg-primary"
+                >
+                  <div
+                    class="aspect-square w-0 rounded-full bg-white transition-[width] group-hover:w-4"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Image Side -->
+            <aside
+              data-aos="fade-left"
+              class="order-1 lg:order-2"
+              data-aos-duration="1000"
+            >
+              <img
+                src="./src/assets/pregnancy-journey/Rectangle 9512.jpg"
+                alt="pregnancy-journey"
+                class="w-full lg:w-fit"
+              />
+            </aside>
+          </div>
+
+          <!-- Labor and Delivery -->
+          <div
+            class="item group relative grid grid-cols-1 py-6 lg:grid-cols-2 lg:gap-28"
+          >
+            <!-- Image Side -->
+            <aside
+              class="order-2 flex justify-end lg:order-1"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
+              <img
+                src="./src/assets/pregnancy-journey/Rectangle 9513.jpg"
+                alt="pregnancy-journey"
+                class="w-full lg:w-fit"
+              />
+            </aside>
+
+            <!-- Timeline Connector -->
+            <div
+              class="absolute left-0 right-0 top-0 mx-auto hidden h-full w-px items-center bg-primary lg:flex"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
+              <!-- Timeline Dot -->
+              <div class="relative -left-3" data-aos="zoom-in">
+                <div
+                  class="flex aspect-square w-6 items-center justify-center rounded-full bg-primary"
+                >
+                  <div
+                    class="aspect-square w-0 rounded-full bg-white transition-[width] group-hover:w-4"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Content Side -->
+            <aside
+              class="order-2 w-full bg-white p-4 lg:order-1 lg:p-8"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
+              <h4 class="font-bold">Labor and Delivery</h4>
+              <p class="mt-2 lg:mt-4">
+                What to Expect: Signs of labor, stages of labor, delivery. What
+                to Expect: Signs of labor, stages of labor, delivery methods.
+                Tips: Understand your pain relief options and follow your birth
+                plan
+              </p>
+            </aside>
+          </div>
+
+          <!-- Postpartum Recovery -->
+          <div
+            class="item group relative grid grid-cols-1 py-6 lg:grid-cols-2 lg:gap-28"
+          >
+            <!-- Content Side -->
+            <aside
+              class="order-2 w-full bg-white p-4 lg:order-1 lg:p-8"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
+              <h4 class="font-bold">Postpartum Recovery</h4>
+              <p class="mt-2 lg:mt-4">
+                What to Expect: Physical recovery, breastfeeding, emotional
+                changes. Tips: Schedule postnatal check-ups and bond with your
+                baby.
+              </p>
+            </aside>
+
+            <!-- Timeline Connector -->
+            <div
+              class="absolute left-0 right-0 top-0 mx-auto hidden h-5/6 w-px items-center bg-primary lg:flex"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
+              <!-- Timeline Dot -->
+              <div class="relative -left-3" data-aos="zoom-in">
+                <div
+                  class="flex aspect-square w-6 items-center justify-center rounded-full bg-primary"
+                >
+                  <div
+                    class="aspect-square w-0 rounded-full bg-white transition-[width] group-hover:w-4"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Image Side -->
+            <aside
+              data-aos="fade-left"
+              class="order-1 lg:order-2"
+              data-aos-duration="1000"
+            >
+              <img
+                src="./src/assets/pregnancy-journey/Rectangle 9514.jpg"
+                alt="pregnancy-journey"
+                class="w-full lg:w-fit"
+              />
+            </aside>
+          </div>
+        </div>
+
+        <!-- Download Button -->
+        <div
+          class="mt-8 flex justify-center lg:mt-14"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          <button class="solid">Download Complete Guide</button>
+        </div>
+      </section>
+
+      <!-- Faq Section -->
+      <section class="container">
+        <div class="flex flex-col items-center gap-6 lg:flex-row lg:gap-12">
+          <div class="lg:w-5/12">
+            <img
+              src="./src/assets/Faq.png"
+              alt="FAQ"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            />
+          </div>
+          <div class="lg:w-7/12">
+            <h2 class="font-bold" data-aos="fade-left" data-aos-duration="1000">
+              Frequently <span class="text-primary">Asked</span> Questions
+            </h2>
+
+            <!-- Accordion Container -->
+            <div id="accordion" class="mt-10 flex flex-col gap-4">
+              <!-- Accordion Item 1 -->
+              <div
+                class="rounded-lg border bg-white"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+              >
+                <!-- The button that opens and closes the content -->
+                <button
+                  class="flex w-full items-center justify-between bg-white px-5 py-4 font-medium text-gray-700 focus:outline-none"
+                >
+                  <h5 class="text-left font-bold">
+                    When should I schedule my first prenatal visit?
+                  </h5>
+                  <!-- Icon that shows the accordion can be expanded or collapsed -->
+                  <span
+                    class="icon inline-flex aspect-square w-10 -rotate-90 items-center justify-center rounded-full text-primary transition-all"
+                  >
+                    <i class="fas fa-chevron-down"></i>
+                  </span>
+                </button>
+                <!-- The content of the accordion that will show when clicked -->
+                <div
+                  class="accordion-content h-0 overflow-y-hidden px-5 py-0 text-gray-600 transition-all"
+                >
+                  It’s best to schedule your first prenatal visit as soon as you
+                  know you’re pregnant, ideally around 6-8 weeks.
+                </div>
+              </div>
+
+              <!-- Accordion Item 2 -->
+              <div
+                class="rounded-lg border bg-white"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+              >
+                <button
+                  class="flex w-full items-center justify-between bg-white px-5 py-4 font-medium text-gray-700 focus:outline-none"
+                >
+                  <h5 class="text-left font-bold">
+                    Can I choose my delivery method?
+                  </h5>
+                  <span
+                    class="icon inline-flex aspect-square w-10 -rotate-90 items-center justify-center rounded-full text-primary transition-all"
+                  >
+                    <i class="fas fa-chevron-down"></i>
+                  </span>
+                </button>
+                <div
+                  class="accordion-content h-0 overflow-y-hidden px-5 py-0 text-gray-600 transition-all"
+                >
+                  Yes, you have the option to discuss your preferred delivery
+                  method with your healthcare provider. Options typically
+                  include vaginal delivery, scheduled cesarean section, or other
+                  methods based on medical advice and your specific situation.
+                </div>
+              </div>
+
+              <!-- Accordion Item 3 -->
+              <div
+                class="rounded-lg border bg-white"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+              >
+                <button
+                  class="flex w-full items-center justify-between bg-white px-5 py-4 font-medium text-gray-700 focus:outline-none"
+                >
+                  <h5 class="text-left font-bold">
+                    What should I bring to the hospital for delivery?
+                  </h5>
+                  <span
+                    class="icon inline-flex aspect-square w-10 -rotate-90 items-center justify-center rounded-full text-primary transition-all"
+                  >
+                    <i class="fas fa-chevron-down"></i>
+                  </span>
+                </button>
+                <div
+                  class="accordion-content h-0 overflow-y-hidden px-5 py-0 text-gray-600 transition-all"
+                >
+                  For your hospital delivery, it’s helpful to bring items like
+                  comfortable clothing, toiletries, your birth plan, a phone
+                  charger, snacks, and any items to make you feel more
+                  comfortable. Don’t forget essential documents like your ID,
+                  insurance information, and birth plan if you have one.
+                </div>
+              </div>
+
+              <!-- Accordion Item 4 -->
+              <div
+                class="rounded-lg border bg-white"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+              >
+                <button
+                  class="flex w-full items-center justify-between bg-white px-5 py-4 font-medium text-gray-700 focus:outline-none"
+                >
+                  <h5 class="text-left font-bold">
+                    How can I manage morning sickness?
+                  </h5>
+                  <span
+                    class="icon inline-flex aspect-square w-10 -rotate-90 items-center justify-center rounded-full text-primary transition-all"
+                  >
+                    <i class="fas fa-chevron-down"></i>
+                  </span>
+                </button>
+                <div
+                  class="accordion-content h-0 overflow-y-hidden px-5 py-0 text-gray-600 transition-all"
+                >
+                  Managing morning sickness can involve several strategies, such
+                  as eating small meals throughout the day, avoiding triggers
+                  like strong smells, staying hydrated, and trying ginger or
+                  peppermint tea. In some cases, your doctor may recommend
+                  medications or other remedies to help alleviate symptoms.
+                </div>
+              </div>
+
+              <!-- Accordion Item 5 -->
+              <div
+                class="rounded-lg border bg-white"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+              >
+                <button
+                  class="flex w-full items-center justify-between bg-white px-5 py-4 font-medium text-gray-700 focus:outline-none"
+                >
+                  <h5 class="text-left font-bold">
+                    Do you offer pain relief during labor?
+                  </h5>
+                  <span
+                    class="icon inline-flex aspect-square w-10 -rotate-90 items-center justify-center rounded-full text-primary transition-all"
+                  >
+                    <i class="fas fa-chevron-down"></i>
+                  </span>
+                </button>
+                <div
+                  class="accordion-content h-0 overflow-y-hidden px-5 py-0 text-gray-600 transition-all"
+                >
+                  Yes, pain relief options are available during labor. These may
+                  include epidurals, pain-relieving medications, or natural
+                  methods like breathing techniques, massage, and hydrotherapy.
+                  Your healthcare team will discuss these options with you to
+                  help you find the best approach for your needs.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact CTA Section -->
+      <section class="bg-primary text-white">
+        <div
+          class="container mx-auto flex flex-col lg:w-4/12 lg:items-center lg:text-center"
+        >
+          <!-- Heading -->
+          <h3
+            class="font-bold capitalize"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            Still have a concern? Don’t worry, let us know your query.
+          </h3>
+
+          <!-- CTA -->
+          <div data-aos="fade-right" data-aos-duration="1000">
+            <button
+              class="white mt-4 flex items-center justify-center gap-2 lg:mt-4"
+            >
+              Read More <i class="fas fas fa-long-arrow-alt-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonial Section -->
+
+      <section class="container" id="testimonial">
+        <div class="flex flex-col gap-8 lg:flex-row lg:gap-12">
+          <!-- Left Side -->
+          <aside
+            class="w-full lg:w-1/3"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            <!-- Left Side Image -->
+            <img
+              src="./src/assets/testimonial.png"
+              alt="testimonial"
+              class="h-full"
+            />
+          </aside>
+
+          <aside class="w-full lg:w-2/3">
+            <!-- Section Heading -->
+            <h2
+              class="font-bold lg:w-9/12"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
+              Testimonials on
+              <span class="text-primary">Matrizen</span> Maternity Care Hospital
+            </h2>
+
+            <div
+              class="my-4 lg:mb-6 lg:mt-10"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
+              <!-- Slider main container -->
+              <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <p class="lg:text-xl">
+                      The care and support I received at Matrizen were
+                      exceptional. From the very first prenatal visit to the
+                      birth of my child, the staff made me feel valued and
+                      supported. The doctors were knowledgeable, always
+                      answering my concerns with patience, and the nurses
+                      provided outstanding care during my delivery. Even the
+                      postpartum support was remarkable. Matrizen truly goes
+                      above and beyond for mothers. I highly recommend Matrizen
+                      to any expectant mother.
+                    </p>
+                    <div class="mt-5">
+                      <h4 class="font-montserrat font-bold">Sarah M</h4>
+                      <p class="mt-1 lg:mt-3">New Mother</p>
+                    </div>
+                  </div>
+
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <p class="lg:text-xl">
+                      Choosing Matrizen for my maternity care was the best
+                      decision I ever made. The entire team, from the doctors to
+                      the nursing staff, was incredibly compassionate and
+                      professional. They guided me through every stage of my
+                      pregnancy and provided exceptional care during my
+                      delivery. Thanks to Matrizen, I felt safe and supported
+                      throughout the journey of welcoming my little one into the
+                      world.
+                    </p>
+                    <div class="mt-5">
+                      <h4 class="font-montserrat font-bold">Ayesha H</h4>
+                      <p class="mt-1 lg:mt-3">New Mother</p>
+                    </div>
+                  </div>
+
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <p class="lg:text-xl">
+                      At Matrizen, I received care that exceeded all my
+                      expectations. The doctors were knowledgeable and
+                      empathetic, always making time to answer my questions, and
+                      the facilities were clean and comfortable. My delivery
+                      experience was smooth, and the postpartum support was
+                      outstanding. Matrizen truly made my journey into
+                      motherhood a joyful and stress-free experience.
+                    </p>
+                    <div class="mt-5">
+                      <h4 class="font-montserrat font-bold">Rekha S</h4>
+                      <p class="mt-1 lg:mt-3">New Mother</p>
+                    </div>
+                  </div>
+
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <p class="lg:text-xl">
+                      I cannot thank the Matrizen team enough for their
+                      incredible care. From the moment I stepped into the
+                      hospital, I felt welcomed and supported. The personalized
+                      attention I received during my pregnancy and delivery made
+                      all the difference. The follow-up care has also been
+                      fantastic. Matrizen is undoubtedly the best choice for any
+                      mother-to-be!
+                    </p>
+                    <div class="mt-5">
+                      <h4 class="font-montserrat font-bold">Fatima K</h4>
+                      <p class="mt-1 lg:mt-3">Grateful Mother</p>
+                    </div>
+                  </div>
+
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <p class="lg:text-xl">
+                      Matrizen made me feel like I was part of a family. Their
+                      dedicated team of doctors and nurses took the time to
+                      address all my concerns and provided exceptional care
+                      throughout my pregnancy. The delivery process was
+                      seamless, and their attention to detail gave me so much
+                      peace of mind. Thank you, Matrizen, for making this
+                      experience unforgettable.
+                    </p>
+                    <div class="mt-5">
+                      <h4 class="font-montserrat font-bold">Nusrat J</h4>
+                      <p class="mt-1 lg:mt-3">Happy Mom</p>
+                    </div>
+                  </div>
+
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <p class="lg:text-xl">
+                      As a first-time mother, I was anxious about everything,
+                      but Matrizen’s team provided unmatched support and
+                      guidance. They ensured I was comfortable and informed at
+                      every stage of my pregnancy. My baby’s delivery was
+                      smooth, and their postnatal care was exceptional. I’m so
+                      grateful to Matrizen for giving me the best experience I
+                      could have hoped for.
+                    </p>
+                    <div class="mt-5">
+                      <h4 class="font-montserrat font-bold">Sneha R.</h4>
+                      <p class="mt-1 lg:mt-3">First-Time Mom</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Scrollbar -->
+                <div class="swiper-scrollbar"></div>
+                <!-- Navigation Buttons -->
+                <div class="mt-6 flex gap-2 pb-1 pl-1 lg:gap-6">
+                  <button
+                    class="bordered swiper-button-prev bg-white px-5 py-1"
+                    id="testimonial-prev"
+                  >
+                    <i class="fas fa-arrow-left"></i>
+                  </button>
+                  <button
+                    class="bordered swiper-button-next bg-white px-5 py-1"
+                    id="testimonial-next"
+                  >
+                    <i class="fas fa-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- Blogs Section -->
+      <section class="container" id="blogs">
+        <!-- Section Title -->
+        <h2
+          class="font-bold lg:text-center"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          Maternity Care
+          <span class="text-primary">Insights & Advice</span>
+        </h2>
+
+        <!-- Section Description -->
+        <p
+          class="mx-auto mt-4 lg:w-1/2 lg:text-center"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          Educational articles and expert advice on pregnancy, postpartum
+          recovery, and baby care.
+        </p>
+
+        <!-- Articles Grid -->
+        <div
+          class="mt-3 grid grid-cols-1 gap-4 md:grid-cols-2 lg:mt-7 lg:grid-cols-3 lg:gap-7"
+        >
+          <!-- Article Card 1 -->
+          <a
+            href="#"
+            class="group rounded-2xl bg-white p-3 shadow-[0_0_60px_0_#0000000D] transition hover:shadow-[0_0_10px_0_#0000000D] lg:p-5"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+          >
+            <!-- Article Image -->
+            <img
+              src="./src/assets/articles/Rectangle 5280-min.jpg"
+              alt="article 1"
+              class="w-full"
+            />
+
+            <div class="mt-5">
+              <!-- Article Date -->
+              <div class="mb-2 flex items-center gap-1">
+                <i class="fas fa-calendar-day text-xs"></i>
+                <p>September 12, 2024</p>
+              </div>
+
+              <!-- Article Title -->
+              <h5 class="mb-6 font-bold">
+                The Ultimate Guide to Prenatal Care: What to Expect in Each
+                Trimester
+              </h5>
+
+              <!-- Read More Button -->
+              <button
+                class="bordered flex items-center gap-2 group-hover:bg-primary group-hover:text-white"
+              >
+                Read More <i class="fas fa-long-arrow-alt-right"></i>
+              </button>
+            </div>
+          </a>
+
+          <!-- Article Card 2 -->
+          <a
+            href="#"
+            class="group rounded-2xl bg-white p-3 shadow-[0_0_60px_0_#0000000D] transition hover:shadow-[0_0_10px_0_#0000000D] lg:p-5"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            <!-- Article Image -->
+            <img
+              src="./src/assets/articles/Rectangle 5280-1-min.jpg"
+              alt="article 2"
+              class="w-full"
+            />
+
+            <div class="mt-5">
+              <!-- Article Date -->
+              <div class="mb-2 flex items-center gap-1">
+                <i class="fas fa-calendar-day text-xs"></i>
+                <p>September 06, 2024</p>
+              </div>
+
+              <!-- Article Title -->
+              <h5 class="mb-6 font-bold">
+                Postpartum Recovery: What Every New Mom Needs to Know
+              </h5>
+
+              <!-- Read More Button -->
+              <button
+                class="bordered flex items-center gap-2 group-hover:bg-primary group-hover:text-white"
+              >
+                Read More <i class="fas fa-long-arrow-alt-right"></i>
+              </button>
+            </div>
+          </a>
+
+          <!-- Article Card 3 -->
+          <a
+            href="#"
+            class="group rounded-2xl bg-white p-3 shadow-[0_0_60px_0_#0000000D] transition hover:shadow-[0_0_10px_0_#0000000D] lg:p-5"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
+            <!-- Article Image -->
+            <img
+              src="./src/assets/articles/Rectangle 5280-2-min.jpg"
+              alt="article 3"
+              class="w-full"
+            />
+
+            <div class="mt-5">
+              <!-- Article Date -->
+              <div class="mb-2 flex items-center gap-1">
+                <i class="fas fa-calendar-day text-xs"></i>
+                <p>August 30, 2024</p>
+              </div>
+
+              <!-- Article Title -->
+              <h5 class="mb-6 font-bold">
+                Top 10 Tips for a Smooth Labor and Delivery Experience
+              </h5>
+
+              <!-- Read More Button -->
+              <button
+                class="bordered flex items-center gap-2 group-hover:bg-primary group-hover:text-white"
+              >
+                Read More <i class="fas fa-long-arrow-alt-right"></i>
+              </button>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- Booking Section -->
+      <section
+        class="container flex flex-col gap-4 lg:flex-row lg:gap-10"
+        id="contact"
+      >
+        <!-- Booking Information (Contact Details and Address) -->
+        <aside class="w-full lg:w-5/12">
+          <h2
+            class="mb-4 w-11/12 font-bold lg:mb-10"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            Book Your <span class="text-primary">Consultation</span> Today
+          </h2>
+
+          <!-- Contact Information -->
+          <div class="flex flex-col gap-4 lg:w-7/12">
+            <!-- Office Address -->
+            <p data-aos="fade-right" data-aos-duration="1000">
+              Office Address : Saint Paul, MN 55112-6629 USA
+            </p>
+            <!-- Email Address -->
+            <p data-aos="fade-right" data-aos-duration="1000">
+              Email :
+              <a href="mailto:support@raddito.com">support@raddito.com</a>
+            </p>
+            <!-- Phone Number -->
+            <p data-aos="fade-right" data-aos-duration="1000">
+              Call : 123-456-7890
+            </p>
+          </div>
+        </aside>
+
+        <!-- Booking Form -->
+        <form class="w-full lg:w-7/12">
+          <!-- Input Fields for Booking Form -->
+          <div class="mb-4 grid grid-cols-1 gap-4 lg:grid-cols-2">
+            <!-- First Name Field -->
+            <aside data-aos="fade-left" data-aos-duration="1000">
+              <label for="firstname" class="mb-2">First Name</label>
+              <input
+                type="text"
+                class="w-full rounded border border-gray-300 p-4 placeholder:text-[#AEAEAE] focus:outline-none"
+                id="firstname"
+                placeholder="Enter your first name"
+              />
+            </aside>
+
+            <!-- Last Name Field -->
+            <aside
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="100"
+            >
+              <label for="lastname" class="mb-2">Last Name</label>
+              <input
+                type="text"
+                class="w-full rounded border border-gray-300 p-4 placeholder:text-[#AEAEAE] focus:outline-none"
+                id="lastname"
+                placeholder="Enter your last name"
+              />
+            </aside>
+
+            <!-- Phone Number Field -->
+            <aside data-aos="fade-left" data-aos-duration="1000">
+              <label for="phoneno" class="mb-2">Phone Number</label>
+              <input
+                type="tel"
+                class="w-full rounded border border-gray-300 p-4 placeholder:text-[#AEAEAE] focus:outline-none"
+                id="phoneno"
+                placeholder="Enter your phone number"
+              />
+            </aside>
+
+            <!-- Email Address Field -->
+            <aside
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="100"
+            >
+              <label for="email" class="mb-2">Email Address</label>
+              <input
+                type="email"
+                class="w-full rounded border border-gray-300 p-4 placeholder:text-[#AEAEAE] focus:outline-none"
+                id="email"
+                placeholder="Enter your email address"
+              />
+            </aside>
+
+            <!-- Doctor Selection Dropdown -->
+            <aside data-aos="fade-left" data-aos-duration="1000">
+              <label for="doctor" class="mb-2">Choose Doctor</label>
+              <div class="rounded border border-gray-300 bg-white pr-4">
+                <select
+                  id="doctor"
+                  class="w-full cursor-pointer bg-white p-4 placeholder:text-[#AEAEAE] focus:outline-none"
+                >
+                  <option selected disabled>Choose Doctor</option>
+                  <option value="doctor-1">Doctor 1</option>
+                  <option value="doctor-2">Doctor 2</option>
+                  <option value="doctor-3">Doctor 3</option>
+                  <option value="doctor-4">Doctor 4</option>
+                  <option value="doctor-5">Doctor 5</option>
+                </select>
+              </div>
+            </aside>
+
+            <!-- Appointment Date Picker -->
+            <aside
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="100"
+            >
+              <label for="date" class="mb-2">Choose Date</label>
+              <div class="rounded border border-gray-300 bg-white p-4">
+                <input
+                  type="date"
+                  class="w-full bg-white placeholder:text-[#AEAEAE] focus:outline-none"
+                  placeholder="Choose a Date"
+                  id="date"
+                />
+              </div>
+            </aside>
+          </div>
+
+          <!-- Message Textarea -->
+          <aside data-aos="fade-left" data-aos-duration="1000">
+            <label for="message" class="mb-2">Message</label>
+            <textarea
+              placeholder="Enter your message"
+              id="message"
+              class="w-full resize-none rounded border border-gray-300 p-4 focus:outline-none"
+              rows="5"
+            ></textarea>
+          </aside>
+
+          <!-- Submit Button -->
+          <div data-aos="fade-left" data-aos-duration="1000">
+            <button class="solid mt-6 lg:mt-12">Submit Form</button>
+          </div>
+        </form>
+      </section>
+
+      <!-- Footer Section -->
+
+      <footer class="bg-[#FFEBF2] pb-12 pt-11 lg:pt-20">
+        <div class="container pb-10">
+          <div
+            class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4 lg:gap-24"
+          >
+            <aside>
+              <img
+                src="./src/assets/logo.png"
+                alt="logo"
+                class="w-1/2 lg:w-full"
+              />
+              <p class="my-4">818 22nd Ave NW Saint Paul, MN 55112-6629 USA</p>
+              <div class="mb-2 flex items-center gap-3 lg:mb-4">
+                <i class="fas fa-phone-alt"></i>
+                <p>12345 67890 (Sales 1)</p>
+              </div>
+              <div class="flex items-center gap-3 lg:mb-4">
+                <i class="fas fa-phone-alt"></i>
+                <p>12345 67890 (Sales 2)</p>
+              </div>
+            </aside>
+
+            <aside>
+              <h4 class="mb-3 font-bold lg:mb-6">Quick Links</h4>
+              <ul class="flex flex-col gap-1 lg:gap-4">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About US</a></li>
+                <li><a href="#pregnancy-guide">Pregnancy Guide</a></li>
+                <li><a href="#blogs">Blog</a></li>
+              </ul>
+            </aside>
+
+            <aside>
+              <h4 class="mb-3 font-bold lg:mb-6">Services</h4>
+              <ul class="flex flex-col gap-1 lg:gap-4">
+                <li><a href="#">Labor Delivery</a></li>
+                <li><a href="#">Prenatal Care</a></li>
+                <li><a href="#">Breastfeeding Support</a></li>
+                <li><a href="#">Newborn Care Guidance</a></li>
+              </ul>
+            </aside>
+
+            <aside>
+              <h4 class="mb-3 font-bold lg:mb-6">Newsletter</h4>
+              <div class="relative mb-3 mt-16 border-b border-primary lg:mb-6">
+                <i class="far fa-envelope absolute -top-10 left-0 my-auto"></i>
+                <input
+                  type="text"
+                  class="absolute bottom-0 left-0 w-full bg-transparent px-10 py-5 focus:outline-none"
+                  placeholder="Enter you Email"
+                />
+
+                <i
+                  class="fas fa-arrow-right absolute -top-10 right-0 my-auto"
+                ></i>
+              </div>
+
+              <div class="flex gap-3">
+                <a
+                  href="https://www.instagram.com/radditollc"
+                  class="inline-flex h-7 w-7 items-center justify-center rounded-full bg-primary text-white"
+                >
+                  <i class="fab fa-instagram"> </i>
+                </a>
+
+                <a
+                  href="https://www.facebook.com/RadditoLLC"
+                  class="inline-flex h-7 w-7 items-center justify-center rounded-full bg-primary text-white"
+                >
+                  <i class="fab fa-facebook"> </i>
+                </a>
+
+                <a
+                  href="https://www.youtube.com/@RadditoLLC"
+                  class="inline-flex h-7 w-7 items-center justify-center rounded-full bg-primary text-white"
+                >
+                  <i class="fab fa-youtube"> </i>
+                </a>
+
+                <a
+                  href="https://twitter.com/RadditoLLC"
+                  class="inline-flex h-7 w-7 items-center justify-center rounded-full bg-primary text-white"
+                >
+                  <i class="fab fa-twitter"> </i>
+                </a>
+              </div>
+            </aside>
+          </div>
+        </div>
+
+        <div class="container text-center">
+          Copyright &copy;<span id="year"></span> Design & Developed by
+          <a
+            href="https://raddito.net/"
+            target="_blank"
+            class="text-primary underline hover:no-underline"
+            >Raddito LLC</a
+          >.
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

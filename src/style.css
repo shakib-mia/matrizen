@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-montserrat;
+}
+
+button {
+  @apply rounded-lg px-6 py-4 font-medium outline-2 outline-offset-2 focus:outline lg:px-8;
+}
+
+button.solid {
+  @apply bg-primary text-white outline-primary transition hover:bg-[#c94976] active:scale-95;
+}
+
+button.white {
+  @apply bg-white text-primary outline-white transition hover:bg-[#ffe3ed] active:scale-95;
+}
+
+button.bordered {
+  @apply border border-primary text-primary outline-primary transition hover:bg-[#c94976] hover:text-white active:scale-95;
+}
+h1 {
+  @apply font-overlock text-4xl leading-tight md:text-[3.5rem] lg:text-[4rem];
+}
+
+h2 {
+  @apply font-overlock text-3xl leading-tight md:text-[2.75rem] lg:text-[3.125rem];
+}
+
+h3 {
+  @apply font-overlock text-2xl leading-tight md:text-[2.25rem] lg:text-[2.5rem];
+}
+
+h4 {
+  @apply font-overlock text-xl leading-tight md:text-[1.75rem] lg:text-2xl;
+}
+
+h5 {
+  @apply font-overlock text-xl leading-tight md:text-[1.75rem] lg:text-xl;
+}
+
+section {
+  @apply py-11 lg:py-24;
+}
+
+::-webkit-scrollbar {
+  @apply w-0;
+}
+
+#menu ul {
+  /* max-height: 0; */
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+  @apply max-h-0 lg:max-h-max;
+}
+
+#menu ul.open {
+  max-height: 500px; /* Adjust based on your menu's content */
+}
